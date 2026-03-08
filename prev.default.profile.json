@@ -1,0 +1,171 @@
+{
+    "editor.fontLigatures": true,
+    "tabnine.experimentalAutoImports": true,
+    "editor.fontSize": 16,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.fontWeight": "250",
+    "editor.minimap.autohide": "mouseover",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "json.schemas": [],
+    "workbench.editorAssociations": {
+        "{git,gitlens,conflictResolution,vscode-local-history}:/**/*.tc.json": "default",
+        "{git,gitlens,conflictResolution,vscode-local-history}:/**/*.{asl.json,asl.yaml,asl.yml}": "default",
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.vsix": "default",
+        "*.db": "default",
+        "*.glb": "default",
+        "*.db-journal": "default",
+        "*.sqlite": "default",
+        "*.xlsx": "default",
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.autoSave": "afterDelay",
+    "thunder-client.saveToWorkspace": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+    },
+    "cloudcode.updateChannel": "Insiders",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "cloudcode.duetAI.project": "global-tine-405823",
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "git.confirmSync": false,
+    "vscode-edge-devtools.webhintInstallNotification": true,
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontFamily": "Symbols Nerd Font",
+    "editor.fontFamily": "Fira Code",
+    "git.openRepositoryInParentFolders": "always",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+    },
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "editor.formatOnType": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+    },
+    "files.exclude": {
+        "**/.git": false,
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/.hg/store/**": true,
+        "**/node_modules/**": true,
+        "**/.git/**": true,
+        "**/.next/**": true,
+        "**/dist/**": true,
+        "**/.cache/**": true,
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "chat.editing.alwaysSaveWithGeneratedChanges": true,
+    "editor.inlineSuggest.showToolbar": "always",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "material-product-icons",
+    "explorer.confirmPasteNative": false,
+    "workbench.sideBar.location": "right",
+    "quokka.automaticRestart": true,
+    "quokka.codeClipAutoUpload": true,
+    "quokka.untrustedWorkspaceBehavior": "Always allow",
+    "quokka.suppressExpirationNotifications": true,
+    "editor.linkedEditing": true,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "vscode.css-language-features",
+    },
+    "candlelightTheme.opacity": 0.05,
+    "candlelightTheme.enableGlow": true,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell",
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe",
+            ],
+            "args": [],
+            "icon": "terminal-cmd",
+        },
+        "Git Bash": {
+            "source": "Git Bash",
+        },
+        "Windows PowerShell": {
+            "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        },
+    },
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "github.copilot.chat.codeGeneration.instructions": [],
+    "mdb.mcp.server": "prompt",
+    "redhat.telemetry.enabled": true,
+    "Devdb.colorTheme": "dark",
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    },
+    "chat.instructionsFilesLocations": {
+        ".github/instructions": true,
+    },
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "aws.cloudformation.telemetry.enabled": true,
+    "workbench.colorTheme": "Candlelight Paper Light",
+    "terminal.integrated.profiles.osx": {
+        "bash": {
+            "path": "/bin/bash",
+            "args": [
+                "-l"
+            ],
+        },
+        "zsh": {
+            "path": "/bin/zsh",
+            "args": [
+                "-l"
+            ],
+        },
+        "fish": {
+            "path": "fish",
+            "args": [
+                "-l"
+            ],
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux",
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell",
+        },
+    },
+    "terminal.integrated.defaultProfile.osx": "bash",
+    "terminal.integrated.autoReplies": {},
+    "mcpServers": {},
+}
