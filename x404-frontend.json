@@ -1,0 +1,39 @@
+{
+    // ---------- Frontend Autosave ----------
+    "files.autoSave": "off", // avoid rebuild loops on Angular/React projects
+    // ---------- Editor Formatting ----------
+    "editor.tabSize": 2, // common for JS/TS projects
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    // ---------- Emmet & HTML/JSX ----------
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "typescript": "typescriptreact"
+    },
+    // ---------- TypeScript Optimization ----------
+    "typescript.tsserver.maxTsServerMemory": 4096, // large Angular/React projects
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    // ---------- Quick Suggestions & UI ----------
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "editor.inlineSuggest.showToolbar": "always",
+    "editor.stickyScroll.enabled": true, // shows current function while scrolling
+    "breadcrumbs.enabled": true,
+    // ---------- Watcher Exclusions ----------
+    "files.watcherExclude": {
+        "**/node_modules/**": true,
+        "**/dist/**": true,
+        "**/.next/**": true,
+        "**/.angular/**": true,
+        "**/.cache/**": true
+    },
+    // ---------- Performance ----------
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true
+}

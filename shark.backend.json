@@ -1,0 +1,37 @@
+{
+    // ---------- Autosave ----------
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 700, // fast enough for server reloads
+    // ---------- Editor Formatting ----------
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    // ---------- Code Actions ----------
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true // auto-fix lint issues on save
+    },
+    // ---------- Terminal ----------
+    "terminal.integrated.scrollback": 10000, // longer history for server logs
+    "terminal.integrated.fontSize": 12,
+    // ---------- Language Optimizations ----------
+    "go.useLanguageServer": true,
+    "java.autobuild.enabled": true,
+    "typescript.tsserver.maxTsServerMemory": 4096,
+    // ---------- Watcher Exclusions ----------
+    "files.watcherExclude": {
+        "**/node_modules/**": true,
+        "**/dist/**": true,
+        "**/.next/**": true,
+        "**/coverage/**": true,
+        "**/.turbo/**": true
+    },
+    // ---------- Performance ----------
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.stickyScroll.enabled": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    // ---------- Breadcrumb Navigation ----------
+    "breadcrumbs.enabled": true
+}
